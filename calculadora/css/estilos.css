@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* Documento CSS : estilos.css  */
+
+/* Importação de Fonts do Google  (Web fonts) */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+body {
+	background-color: indigo;
+}
+
+h1 { 
+	margin: 5px 5px;
+	padding: 4px 2px;	
+	color: white;
+	font: bold 20px Roboto;
+}
+
+input[type=button] {	
+	padding: 4px 2px;
+	height: 40px;		
+	width: 40px;
+	cursor: pointer;
+	font: bold 16px Roboto;
+	/*position: absolute;*/
+	left: 0;	
+}
+
+input[type=text] {
+	margin: 5px 5px;
+	padding: 4px 2px;
+	background-color: lightblue;
+    font: bold 16px Roboto;
+}
+
+div {height: 31px;}
+
+div > div {
+	margin: 5px 5px;	
+	height: 40px;		
+	width: 40px;	
+	position: relative;
+	float:left;
+	left: 0;
+}
+
+#igual {
+	position: absolute; 
+	//left: 0;
+	//right: -100;
+}
+
+#config {	
+	right: 200px;
+	height: 32px;		
+	width: 32px;
+	font-size:15px;
+}
+
